@@ -10,7 +10,7 @@
     margin-bottom: 50px;
 }
 
-/* Liste des horaires */
+
 .list-group{
     max-width: 800px;
     margin: auto;
@@ -38,25 +38,25 @@
     transform: translateX(10px);
 }
 
-/* Jour actuel */
+
 .current-day{
     background: #E9B824 !important;
     color: #2D4A3E;
     font-weight: bold;
 }
 
-/* Badge ouvert aujourd'hui */
+
 .badge.bg-success{
     background: #2D4A3E !important;
     color: white;
 }
 
-/* Badge fermé */
+
 .badge.bg-danger{
     background: #C84B31 !important;
 }
 
-/* Responsive */
+
 @media(max-width:768px){
 
     .horaires-section{

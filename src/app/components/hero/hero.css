@@ -14,14 +14,14 @@
     overflow: hidden;
 }
 
-/* Couche sombre */
+
 .overlay{
     position: absolute;
     inset: 0;
     background: rgba(0,0,0,.55);
 }
 
-/* Contenu */
+
 .content{
     position: relative;
     z-index: 2;
@@ -46,7 +46,7 @@
     color: #f1f1f1;
 }
 
-/* Bouton */
+
 .btn-menu{
     background: #E9B824;
     color: #2D4A3E;
@@ -65,7 +65,7 @@
     color: white;
 }
 
-/* Tablette */
+
 @media(max-width:900px){
 
     .hero{
@@ -82,7 +82,7 @@
 
 }
 
-/* Mobile */
+
 @media(max-width:600px){
 
     .hero{

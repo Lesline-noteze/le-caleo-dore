@@ -40,5 +40,8 @@ export class Menu {
   { id:8, name: 'Folong', description:'Salade traditionnelle au folong',
     price:2000, category:'entree'
   },
+  { id:9, name: 'Folong', description:'Salade traditionnelle au folong',
+    price:2000, category:'entree'
+  },
   ];
 }

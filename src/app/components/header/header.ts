@@ -1,5 +1,5 @@
 import { Component, HostListener } from '@angular/core';
-import { window } from 'rxjs';
+// import { window } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -9,26 +9,27 @@ import { window } from 'rxjs';
   styleUrl: './header.css',
 })
 export class Header {
+  backgroundImage = 'logo.png';
   isMenuOpen = false;
-  activelink = 'Acceuil';
+  activeLink = 'Accueil';
 
-  links = ['Acceuil', 'Menu', 'Temoignages','Horaires', 'Contact'];
+  links = ['Accueil', 'Menu', 'Temoignages', 'Horaires', 'Contact'];
 
-  // isMobile = Window.innerWidth < 600;
-  // @HostListener('window:resize')
-  // onResize(){
-  //   this.isMobile= Window.innerWidth < 600;
+  isMobile = window.innerWidth < 600;
+  @HostListener('window:resize')
+  onResize() {
+    this.isMobile = window.innerWidth < 600;
 
-  //   if (!this.isMobile){
-  //     this.isMenuOpen = false;
-  //   }
-  // }
+    if (!this.isMobile) {
+      this.isMenuOpen = false;
+    }
+  }
 
-  toogleMenu(){
+  toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
-  setActive(link : string){
-    this.activelink = link;
-    this.isMenuOpen = false
+  setActive(link: string) {
+    this.activeLink = link;
+    this.isMenuOpen = false;
   }
 }

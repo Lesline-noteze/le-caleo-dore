@@ -17,7 +17,7 @@
     font-size: .95rem;
 }
 
-/* Liens */
+
 .footer a{
     text-decoration: none;
     color: #FAF3E0;
@@ -28,7 +28,7 @@
     color: #E9B824;
 }
 
-/* Réseaux sociaux */
+
 .socials{
     display: flex;
     flex-direction: column;
@@ -48,7 +48,6 @@
     transform: translateX(8px);
 }
 
-/* Navigation */
 .list-unstyled li{
     margin-bottom: 12px;
 }
@@ -72,19 +71,19 @@
     width: 100%;
 }
 
-/* Ligne séparatrice */
+
 .footer hr{
     border: 1px solid rgba(255,255,255,.15);
     margin-top: 40px;
 }
 
-/* Copyright */
+
 .footer .text-center{
     color: #dcdcdc;
     font-size: .9rem;
 }
 
-/* Responsive */
+
 @media(max-width:768px){
 
     .footer{

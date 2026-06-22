@@ -1,16 +1,18 @@
 <header>
     <div class="logo">
-        Le caleo doré
+        <img [src]="backgroundImage" alt="Logo Le Calao Doré">
+
+        <span>Le Calao Doré</span>
     </div>
-    <button class="burger" (click)="toogleMenu() ">|||</button>
-    <!-- @if (isMeniOpen|| !isMobile){
-        <nav>
-            @for(link of links; track link){
-                <a [class.Active]="ActiveLink === link"
-                (click)= "setActive(link)">
-                 {{link}}
-            </a>
-            }
-        </nav>
-    } -->
+    <button class="burger" (click)="toggleMenu() "> ☰ </button>
+    @if (isMenuOpen || !isMobile){
+    <nav>
+        @for(link of links; track link){
+        <a [class.active]="activeLink === link" (click)="setActive(link)">
+            {{link}}
+        </a>
+        }
+    </nav>
+    }
+
 </header>

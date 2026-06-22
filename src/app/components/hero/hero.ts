@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './hero.css',
 })
 export class Hero {
-  backgroungImage = 'banière.png';
+  backgroungImage = 'hero.jpg';
   title = ' Saveurs authentiques du cameroun';
   subtitle = '15 ans de tradition culinaire à Douala'
 }
