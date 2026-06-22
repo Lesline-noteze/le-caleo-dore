@@ -45,7 +45,7 @@ nav a:active{
         gap: 1rem;
     }
 }
-@media(max-width){
+@media(max-width: 600px){
     header{
         align-items: flex-start;
     }
