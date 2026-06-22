@@ -1,0 +1,79 @@
+.horaires-section{
+    background: linear-gradient(to right, #2D4A3E, #365b4b);
+    padding: 80px 0;
+}
+
+.horaires-section h2{
+    color: #FAF3E0;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* Liste des horaires */
+.list-group{
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+.list-group-item{
+    padding: 20px 25px;
+    font-size: 1.1rem;
+    border: none;
+    transition: .3s ease;
+}
+
+.list-group-item:nth-child(even){
+    background: #FAF3E0;
+}
+
+.list-group-item:nth-child(odd){
+    background: white;
+}
+
+.list-group-item:hover{
+    transform: translateX(10px);
+}
+
+/* Jour actuel */
+.current-day{
+    background: #E9B824 !important;
+    color: #2D4A3E;
+    font-weight: bold;
+}
+
+/* Badge ouvert aujourd'hui */
+.badge.bg-success{
+    background: #2D4A3E !important;
+    color: white;
+}
+
+/* Badge fermé */
+.badge.bg-danger{
+    background: #C84B31 !important;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .horaires-section{
+        padding: 60px 20px;
+    }
+
+    .horaires-section h2{
+        font-size: 2rem;
+    }
+
+    .list-group-item{
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+}
+.current-day{
+    border-left: 8px solid #C84B31;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
