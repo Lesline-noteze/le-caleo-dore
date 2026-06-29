@@ -29,6 +29,7 @@ nav{
     gap: 1.5rem;
     justify-content: space-between;
 }
+
 nav a{
     text-decoration: none;
     color: #faf3e0;
@@ -37,6 +38,7 @@ nav a{
 }
 nav a:hover{
     color: #e9b824;
+    border: 3px solid #e9b824;
 }
 nav a:active{
     color: #e9b824;

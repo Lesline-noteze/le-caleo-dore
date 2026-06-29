@@ -9,15 +9,17 @@ import { Component, HostListener } from '@angular/core';
   styleUrl: './header.css',
 })
 export class Header {
-  backgroundImage = 'logo.png';
+  backgroundImage = 'logo1.png';
   isMenuOpen = false;
   activeLink = 'Accueil';
 
   links = ['Accueil', 'Menu', 'Temoignages', 'Horaires', 'Contact'];
+  
 
   isMobile = window.innerWidth < 600;
   @HostListener('window:resize')
   onResize() {
+
     this.isMobile = window.innerWidth < 600;
 
     if (!this.isMobile) {
@@ -26,6 +28,7 @@ export class Header {
   }
 
   toggleMenu() {
+    
     this.isMenuOpen = !this.isMenuOpen;
   }
   setActive(link: string) {

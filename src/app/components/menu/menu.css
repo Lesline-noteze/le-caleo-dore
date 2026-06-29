@@ -1,5 +1,6 @@
 #menu{
     background: #FAF3E0;
+    padding: 80px 0;
 }
 
 #menu h2{
@@ -12,11 +13,12 @@
 
 .card{
     border: none;
-    border-radius: 20px;
-    overflow: hidden;
-    background: white;
+    border-radius: 10px;
+    /* overflow: hidden;
+    background: white; */
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     transition: .3s ease;
+    
 }
 
 .card:hover{
@@ -26,6 +28,7 @@
 
 .card-body{
     padding: 25px;
+   
 }
 
 
