@@ -16,11 +16,11 @@ export class Header {
   links = ['Accueil', 'Menu', 'Temoignages', 'Horaires', 'Contact'];
   
 
-  isMobile = window.innerWidth < 600;
+  isMobile = window.innerWidth < 700;
   @HostListener('window:resize')
   onResize() {
 
-    this.isMobile = window.innerWidth < 600;
+    this.isMobile = window.innerWidth < 700;
 
     if (!this.isMobile) {
       this.isMenuOpen = false;

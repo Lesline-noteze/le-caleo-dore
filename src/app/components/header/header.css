@@ -48,6 +48,7 @@ nav a:active{
 .burger{
     display: none;
     background: none;
+    border: none;
     color: #faf3e0;
     font-size: 2rem;
     cursor: pointer;
