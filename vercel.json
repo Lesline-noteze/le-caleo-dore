@@ -1,6 +1,6 @@
 { 
 "buildCommand": "npm run build",
-"outputDirectory": "dist/[NOM-DE-VOTRE-PROJET]/browser",
+"outputDirectory": "dist/le-caleo-dore/browser",
 "rewrites": [
     {
         "source": "/(.*)",
