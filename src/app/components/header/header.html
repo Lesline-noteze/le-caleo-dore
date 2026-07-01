@@ -6,13 +6,13 @@
     </div>
     <button class="burger" (click)="toggleMenu() "> ☰ </button>
     @if (isMenuOpen || !isMobile){
-    <nav>
+    <P>
         @for(link of links; track link){
         <a [class.active]="activeLink === link" (click)="setActive(link)">
             {{link}}
         </a>
         }
-    </nav>
+    </P>
     <!-- <nav>
         <a *ngFor="let link of links" (click)="scrollTo(link)" [class.active]="activeLink === link">
             {{ links }}

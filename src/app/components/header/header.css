@@ -24,23 +24,25 @@ header{
     border-radius: 20px;
     object-fit: cover;
 }
-nav{
+P{
     display: flex;
     gap: 1.5rem;
     justify-content: space-between;
 }
 
-nav a{
+
+
+P a{
     text-decoration: none;
     color: #faf3e0;
-    font-weight: 500;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
-nav a:hover{
+P a:hover{
     color: #e9b824;
-    border: 3px solid #e9b824;
+  
 }
-nav a:active{
+P a:active{
     color: #e9b824;
     border-bottom: 2px solid #e9b824;
     padding-bottom: 0.2rem;
@@ -68,7 +70,7 @@ nav a:active{
     .burger{
         display: block;
     }
-    nav{
+    P{
         width: 100%;
         flex-direction: column;
         margin-top: 1rem;
